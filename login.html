@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Caveat">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script>
+        function login()
+{
+var a=document.getElementById('username').value
+var b=document.getElementById('password').value
+if(a==""||b=="")
+{
+alert("PLEASE ENTER THE DETAILS");
+}
+
+else
+if(a=="SHUBHAM" && b=="1111")
+{
+window.open("index.html");
+}
+else
+{
+alert("you have entered incorrect username/password");
+}
+
+}
+    </script>
+</head>
+<body>
+    <header>
+        <h3>HOTEL MANAGMENT SYSTEM</h3>
+    </header>
+    <div class="main">
+        <h1>SIGN IN</h1>
+        <form  action="">
+            <input type="text" placeholder="username" name="username" id="username">
+            <input type="password" placeholder="password" name="" id="password">
+            <input type="submit" value="LOGIN" onclick="login()">
+
+        </form>
+        <div class="cl2">
+            <input type="checkbox" name="remember" checked="checked">remember me<br>
+            <a href="#" style="color: rgb(197, 28, 70);">forgot password</a>
+        </div>
+        <div class="social">
+            <a href="#" onclick="parent.location='https://www.facebook.com/profile.php?id=100009486248372'"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#" onclick="parent.location='https://github.com/shubham11804686'"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+</body>
+</html>

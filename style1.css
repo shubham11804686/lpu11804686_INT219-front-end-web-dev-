@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("h2.jpg");
+    background-size: cover;
+    font-family: 'Caveat';
+}
+header{
+    font-size: 50px;
+    text-shadow: 4px 4px 4px burlywood;
+    color: rgb(119, 231, 231);
+    text-align: center;
+}
+.main{
+    font-family: 'Caveat',serif;
+    width: 400px;
+    height: 420px;
+    color: rgb(11, 12, 12);
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8p 8px 50px #000000;
+}
+.cl2{
+    font-size: 30px;
+    color: rgb(150, 187, 187);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(22, 21, 22);
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: 'Caveat',serif;
+    text-shadow: 4px 4px 4px violet;
+}
+.main input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #dd4936;
+    color: white;
+  }
+  .fa-github{
+      background: rgb(36, 35, 35);
+      color: white;
+  }
+  

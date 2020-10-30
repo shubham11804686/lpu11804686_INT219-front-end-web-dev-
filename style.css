@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(40, 156, 156);
+    background-attachment: fixed;
+}
+
+
+header{
+    color: rgb(6, 31, 41);
+    text-shadow: 2px 2px 2px brown;
+    font-size: 30px;
+    font-style: italic;
+    background-image: url("h2.jpg");
+}
+.navbar{
+    background-color: black;
+    border-radius: 3px;
+    font-style: italic;
+    
+    }
+    .navbar ul{
+    overflow: auto;
+    }
+    .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+    }
+    .navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    }
+    .navbar li a:hover{
+    color: red
+    }
+    .search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+    }
+    .navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+    }
+   .bed{
+       font-size: 40x;
+       font-style: italic;
+       text-shadow: 2px 2px 2px blueviolet;
+   }
+   .About{
+    font-size: 30x;
+    font-style: italic;
+    text-shadow: 2px 2px 2px rgb(236, 52, 160);
+
+   }
+   .footer{
+       font-size: 25px;
+       font-style: italic;
+       text-shadow: 3px 2px 2px rgb(35, 189, 35);
+   }
