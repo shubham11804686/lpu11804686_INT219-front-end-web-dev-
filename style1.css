@@ -75,4 +75,9 @@ h1{
       background: rgb(36, 35, 35);
       color: white;
   }
-  
+   .footer{
+      font-size: 20px;
+      color: aquamarine;
+      text-align:end;
+      text-shadow: 2px 2px 2px rgb(68, 17, 17);
+  }
